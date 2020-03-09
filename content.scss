@@ -1,0 +1,33 @@
+@import "config";
+
+
+@include image(
+  $name: "hero",
+  $url:
+    "https://images.riverisland.com/is/image/RiverIsland/c20200122-hp-hero-denim_DNT"
+  // $lazyLoad: 'true'
+);
+@include image(
+  $name: "prm1",
+  $url:
+    "https://images.riverisland.com/is/image/RiverIsland/c20200123-wwlp-hero-new%20arrivals-tops_DNT",
+    $lazyLoad: 'true'
+);
+@include image(
+  $name: "prm2",
+  $url:
+    "https://images.riverisland.com/is/image/RiverIsland/c20200123-wwlp-hero2-workwear-findoutmore_DNT",
+  $lazyLoad: 'true'
+);
+@include image(
+  $name: "prm3",
+  $url:
+    "https://images.riverisland.com/is/image/RiverIsland/c20200117-bwlp-hero-hoodies_DNT",
+  $lazyLoad: 'true'
+);
+@include image(
+  $name: "prm4",
+  $url:
+    "https://images.riverisland.com/is/image/RiverIsland/c20200114-mwlp-promo1-t-shirts_DNT",
+  $lazyLoad: 'true'
+);
